@@ -3,13 +3,13 @@ import faker from 'faker'
 import { has } from 'lodash'; 
 
 const Index = ({ name }) => {
-  const ob1 = { nombre: "Bing Chilling" };
-  has(ob1, "nombre"); 
+  const ob1 = { somevar: "Bing Chilling" };
+  has(ob1, "somevar"); 
   
   return (
     <div>
-      <h1>Super heavy Homepage</h1>
-      <p>Welcome, {name}</p>
+      <h1>Super Heavy Homepage</h1>
+      <p>Welcome, {name}. Imagine this is a really cool front-end website.</p>
       <div>
         <Link href="/about">
           <a>About Page</a>

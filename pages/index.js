@@ -3,7 +3,7 @@ import faker from 'faker'
 import { has } from 'lodash'; 
 
 const Index = ({ name }) => {
-  const ob1 = { nombre: "a" };
+  const ob1 = { nombre: "Bing Chilling" };
   has(ob1, "nombre"); 
   
   return (
